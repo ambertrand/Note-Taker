@@ -29,4 +29,16 @@ module.exports = function (app) {
         editNote();
         res.send(savedNote);
     });
+
+    app.delete("/api/notes/:id", (req, res) => {
+        idDelete = req.params.id
+        for (let i = 0; i < savedNote.length; i++) {
+            if (savedNote[i].id === idDelete) {
+                savedNote.splice(i, 1);
+                editNote();
+                res.send(savedNote);
+                return;
+            }
+        }
+    });
 }
