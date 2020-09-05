@@ -2,11 +2,10 @@
 
 ##  Table of Contents
  * [Description](#description)
-    * [Project Link](#project-link)
+    * [Deployed Project Link](#project-link)
  * [Technologies Used](#technologies-used)
  * [Developer Notes](#developer-notes)
  * [Project Images](#project-images)
- * [Video Link](#video-link)
  * [License](#license)
  * [Contact](#contact)
 
