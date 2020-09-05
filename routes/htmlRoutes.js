@@ -8,6 +8,10 @@ module.exports = function(app) {
         res.sendFile(path.join(__dirname, "../public/notes.html"));
     });
 
+    app.get("/", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/index.html"));
+    });
+
     // No matching route is found defaults to index
     app.get("*", function(req, res) {
         res.sendFile(path.join(__dirname, "../public/index.html"));
