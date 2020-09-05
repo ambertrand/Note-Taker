@@ -23,7 +23,7 @@
     * uuid
 
 ## Developer Notes:
-
+For this project I was tasked with developing the back-end of this note taker app using express.  After having a pretty good understanding of express from the previous week I was able to get the app up and running fairly easily.  I did recieve some help from another classmate on finding the uuid package that creates random id's for each note so that was very helpful.
 
 ## Images
 ![Starter screenshot](https://user-images.githubusercontent.com/65721950/92308803-76651b00-ef6e-11ea-8481-7c11233bb1e0.png)
